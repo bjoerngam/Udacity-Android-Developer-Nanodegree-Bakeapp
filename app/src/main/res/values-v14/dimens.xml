@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <dimen name="widget_margin">8dp</dimen>
+
+    <!-- Dimens for the bake_app_widget.xml file -->
+
+    <dimen name="headline_position">70dp</dimen>
+    <dimen name="headline_font_size">18sp</dimen>
+    <dimen name="padding_top">18dp</dimen>
+    <dimen name="listentry_text_size">20sp</dimen>
+
+    <!-- Definition of the Widget layout: bake_app_widget_info.xml file -->
+    <dimen name="minWidgetHeight">200dp</dimen>
+    <dimen name="minWidgetWidth">300dp</dimen>
+
+    <!-- Dimens for the single step mobile screen: singlestepmobile. xml -->
+    <dimen name="exoPlayer_layout_height">300dp</dimen>
+    <dimen name="exoPlayer_layout_margin">20dp</dimen>
+    <dimen name="stepDescription_layout_margin">10dp</dimen>
+    <dimen name="stepDescription_layout_head">100dp</dimen>
+    <dimen name="stepDescription_layout_top">350dp</dimen>
+
+    <!-- Dimens for the recipe single step list fragment the large version -->
+    <dimen name="linearlayout_ingredients_width">300dp</dimen>
+    <dimen name="linearlayout_ingredients_margin">10dp</dimen>
+    <dimen name="ingredients_label_text_size">18sp</dimen>
+    <dimen name="ingredients_list_height">250dp</dimen>
+    <dimen name="ingredients_list_text_size">14sp</dimen>
+    <dimen name="steps_list_fragment_height">400dp</dimen>
+    <dimen name="linearlayout_exoplayer_step_margin_tablet">10dp</dimen>
+    <dimen name="linearlayout_exoplayer_height">400dp</dimen>
+    <dimen name="linearlayout_exoplayer_steps_width">700dp</dimen>
+    <dimen name="linearlayout_steps_height">300dp</dimen>
+
+    <!-- Dimens for the recipce single step list fragment mobile version -->
+    <dimen name="ingredients_layout_margin_mobile">10dp</dimen>
+    <dimen name="ingredients_layout_margin_top_mobile">30dp</dimen>
+    <dimen name="steps_fragment_margin_mobile">10dp</dimen>
+    <dimen name="steps_fragment_margin_top_mobile">200dp</dimen>
+
+    <!-- Dimens for the widget list item -->
+    <dimen name="widget_list_item_imageview_margin">10dp</dimen>
+    <dimen name="widget_list_item_text_size">16sp</dimen>
+    <dimen name="widget_list_item_text_margin">20sp</dimen>
+</resources>

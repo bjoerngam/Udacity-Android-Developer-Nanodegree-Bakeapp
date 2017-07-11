@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">BakeApp</string>
+
+    <!-- Single Step View SingleRecipeStep.java-->
+    <string name="first_step">This is the first step.</string>
+    <string name="last_step">This is the last step.</string>
+
+    <!-- Activity_Fragment_Master_View activity_fragment_master.xml-->
+    <string name="label_ingredients">Ingredients</string>
+    <string name="label_steps">Steps</string>
+
+    <!-- Main Screen activity_main.xml -->
+    <string name="no_internet_connection">Currently there is no connection to the internet.</string>
+    <string name="json_object_null">The JSON object is empty. Check your URL.</string>
+    <string name="servings_label">Servings </string>
+
+    <!-- Widget -->
+    <string name="appwidget_text">BakeApp</string>
+    <string name="add_widget">Bake App</string>
+    <string name="headline">BakeApp</string>
+    <string name="empty_screen">Currently no data</string>
+    <string name="content_description_cake_icon">Kuchen Icon</string>
+</resources>

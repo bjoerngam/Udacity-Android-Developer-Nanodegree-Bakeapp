@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/bjoern/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/home/bjoern/AndroidStudioProjects/bakeapp/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_f4d4d04f855edd2dbbc51b6b290382b686732a0b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/bjoern/.gradle/caches/modules-2/files-2.1/com.google.android.apps.common.testing.accessibility.framework/accessibility-test-framework/2.0/7837f95bdff9f797003454247fef02b78d49ae75/accessibility-test-framework-2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7837f95bdff9f797003454247fef02b78d49ae75">
+        <dex dex="/home/bjoern/AndroidStudioProjects/bakeapp/app/build/intermediates/pre-dexed/androidTest/debug/accessibility-test-framework-2.0_bfd08df4804902c4d09e20e5b75567404b0e64c0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/bjoern/.android/build-cache/6ecca059533d2542c735bdaef450840a5c753cbc/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/home/bjoern/AndroidStudioProjects/bakeapp/app/build/intermediates/pre-dexed/debug/classes_be4415289632aa99efb1cddd4ba62343f0ed4cda.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/bjoern/.android/build-cache/9609c699ce4b2fc85535cb5d2281bd7ba88e72e2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="/home/bjoern/AndroidStudioProjects/bakeapp/app/build/intermediates/pre-dexed/debug/classes_cd044ed22b0edb0f55a1a6d3aabd92b319046238.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/bjoern/.android/build-cache/aeaabcacf7602409dc2f49cce9143ed7cac38010/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="56576e0b04aae5e9756bf6e791f74b5e3850ac03">
+        <dex dex="/home/bjoern/AndroidStudioProjects/bakeapp/app/build/intermediates/pre-dexed/androidTest/debug/classes_68b5c9b7084a9936ab8eadd4ada7290aa77237fa.jar" />
+    </item>
+
+</items>

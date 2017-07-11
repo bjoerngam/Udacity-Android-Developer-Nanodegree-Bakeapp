@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Here we are displaying the recipe steps and the ingredients mobile version -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="20sp"
+        android:text="@string/label_ingredients" />
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cvIngredients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <!-- Here I will display the complete ingredients list for the current recipe -->
+
+        <TextView
+            android:id="@+id/tvRecipeIngredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/white"
+            android:fontFamily="sans-serif"
+            android:paddingTop="10dp"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+    </android.support.v7.widget.CardView>
+
+    <FrameLayout
+        android:id="@+id/frMasterFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+</LinearLayout>

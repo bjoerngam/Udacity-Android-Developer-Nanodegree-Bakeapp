@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="exoplayer-hls-r2.4.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/6cf9810674b6d23cc254b28243cb54a0b758d18b/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/6cf9810674b6d23cc254b28243cb54a0b758d18b/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.exoplayer/exoplayer-hls/r2.4.1/7fc6e1b4b80fc88e7dd045b540cb8b6f254698e1/exoplayer-hls-r2.4.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

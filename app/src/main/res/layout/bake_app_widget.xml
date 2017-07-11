@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorAccent" >
+
+    <!--Setting up a short headline for the widget -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/headline_position"
+        android:textAllCaps="true"
+        android:fontFamily="sans-serif"
+        android:textSize="@dimen/headline_font_size"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:text="@string/headline"/>
+
+    <!-- ListView to be shown on widget -->
+    <ListView
+        android:id="@+id/listViewWidget"
+        android:paddingTop="@dimen/padding_top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Empty view is show if list items are empty -->
+    <TextView
+        android:id="@+id/empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/empty_screen"
+        android:textSize="@dimen/listentry_text_size"
+        android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <!--Adding a small icon before every recipe item -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/content_description_cake_icon"
+        android:paddingEnd="@dimen/widget_list_item_imageview_margin"
+        android:paddingStart="@dimen/widget_list_item_imageview_margin"
+        android:src="@drawable/ic_cake_black_24dp" />
+
+    <!---The name of the recipe -->
+    <TextView
+        android:id="@+id/tvWidgetRecipeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/widget_list_item_text_margin"
+        android:fontFamily="sans-serif"
+        android:textSize="@dimen/widget_list_item_text_size" />
+
+</LinearLayout>

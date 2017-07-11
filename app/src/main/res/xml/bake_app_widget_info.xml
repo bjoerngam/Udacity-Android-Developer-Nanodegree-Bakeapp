@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Definition of the Widget layout -->
+<appwidget-provider
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialKeyguardLayout="@layout/bake_app_widget"
+    android:initialLayout="@layout/bake_app_widget"
+    android:minHeight="@dimen/minWidgetHeight"
+    android:minWidth="@dimen/minWidgetWidth"
+    android:previewImage="@drawable/cake_slice"
+    android:resizeMode="horizontal|vertical"
+    android:updatePeriodMillis="86400000"
+    android:widgetCategory="home_screen">
+</appwidget-provider>
